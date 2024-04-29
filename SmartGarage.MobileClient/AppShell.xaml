@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SmartGarage.MobileClient.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SmartGarage.MobileClient"
+    xmlns:pages="clr-namespace:SmartGarage.MobileClient.Pages"
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem Title="Car">
+        <ShellContent
+        Title="Car State"
+        ContentTemplate="{DataTemplate pages:CarStateView}"
+        Route="CarStateView" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Home">
+        <ShellContent
+        Title="Main"
+        ContentTemplate="{DataTemplate pages:MainView}"
+        Route="MainView" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Login">
+        <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate pages:LoginView}"
+        Route="LoginView" />
+    </FlyoutItem>
+</Shell>

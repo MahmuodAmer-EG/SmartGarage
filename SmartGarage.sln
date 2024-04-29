@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartGarage.API", "SmartGarage.API\SmartGarage.API.csproj", "{D2D009FA-EA6A-4597-AC1F-5CDE77C3F2D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartGarage.MobileClient", "SmartGarage.MobileClient\SmartGarage.MobileClient.csproj", "{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartGarage.MobileClientTests", "SmartGarage.MobileClient.Tests\SmartGarage.MobileClientTests.csproj", "{05EE4303-CBBB-4A08-AAC6-EA6385A78F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartGarage.Models", "SmartGarage.Models\SmartGarage.Models.csproj", "{DA481903-6829-40E3-BF52-5D0D570CC98D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D009FA-EA6A-4597-AC1F-5CDE77C3F2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D009FA-EA6A-4597-AC1F-5CDE77C3F2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D009FA-EA6A-4597-AC1F-5CDE77C3F2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D009FA-EA6A-4597-AC1F-5CDE77C3F2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B733684-69E3-4FDD-8B69-4B0EA4F1034D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{05EE4303-CBBB-4A08-AAC6-EA6385A78F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05EE4303-CBBB-4A08-AAC6-EA6385A78F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05EE4303-CBBB-4A08-AAC6-EA6385A78F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05EE4303-CBBB-4A08-AAC6-EA6385A78F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA481903-6829-40E3-BF52-5D0D570CC98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA481903-6829-40E3-BF52-5D0D570CC98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA481903-6829-40E3-BF52-5D0D570CC98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA481903-6829-40E3-BF52-5D0D570CC98D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD6AF3E7-B036-4EE0-93FE-4932E5C66420}
+	EndGlobalSection
+EndGlobal

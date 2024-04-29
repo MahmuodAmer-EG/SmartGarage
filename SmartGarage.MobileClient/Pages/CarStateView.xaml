@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartGarage.MobileClient.Pages.CarStateView"
+             Title="Car"
+             xmlns:viewModel="clr-namespace:SmartGarage.MobileClient.ViewModel"
+             xmlns:converters="clr-namespace:SmartGarage.MobileClient.Converters"
+             x:DataType="viewModel:CarStateViewModel"
+             >
+    <ContentPage.Resources>
+        <converters:NotConverter x:Key="NotConverter"/>
+    </ContentPage.Resources>
+    <VerticalStackLayout Padding="10" Margin="10" Spacing="10">
+
+        <Button Text="Store Car" 
+                IsVisible="{Binding IsDoorOpen,Converter={StaticResource NotConverter}}" 
+                Command="{Binding OpenGarageDoorCommand}"/>
+        <Button Text="Retrive Car" 
+                Command="{Binding StartStoringCommand}" 
+                IsVisible="{Binding IsDoorOpen}"/>
+
+
+        <Image BackgroundColor="#D1D1D1" 
+               Source="{Binding QrCodeImage}"
+               WidthRequest="250"
+               HeightRequest="250"
+               Aspect="AspectFill" />
+    </VerticalStackLayout>
+</ContentPage>
